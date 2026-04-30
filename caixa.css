@@ -1,0 +1,138 @@
+body {
+	background: ##ff6600;
+	overflow-x: hidden;
+	width: 100%;
+}
+
+.container-caixa {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e8a111+0,fd7e0d+100 */
+	background: ##ff6600; /* Old browsers */
+	min-height: 100vh;
+}
+
+.container-nulo {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e8a111+0,fd7e0d+100 */
+	background: #ff6600; /* Old browsers */
+	min-height: 100vh;
+}
+.bg-image {
+	background: linear-gradient(rgba(232, 161, 17, 0.9), rgba(253, 126, 13, 0.9)), url(../img/itau/bg.png);
+	background-position: center;
+	background-size: cover;
+
+}
+
+.container-caixa img.init_logo, .container-nulo img.init_logo {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateY(-50%) translateX(-50%);
+	width: 30%;
+}
+
+.logo_form {
+	max-width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.trinta_hrs_form {
+	float: right;
+	top: 0;
+}
+
+.navbar {
+	background: ##ff6600;
+	box-shadow: none;
+}
+
+.footer {
+	padding-top: 60px;
+	padding-bottom: 20px;
+}
+
+.btn-caixa {
+	background-color: ##ff6600;
+    color: #ff6600;
+    border: 1px #ff6600 solid;
+}
+
+.btn-caixa:hover {
+	background-color: #3a81c1 !important;
+}
+
+.icon-caixa {
+	color: #efe9e6;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+   color: #ff6600 !important;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: #ff6600 !important;
+   opacity:  1 !important;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: #ff6600 !important;
+   opacity:  1 !important;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #ff6600 !important;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color: #ff6600 !important;
+}
+
+.form-control, .form-group .form-control, .form-group.is-focused .form-control, .form-group.has-error.is-focused .form-control {
+	background-image: linear-gradient(#f7aa00, #f7aa00), linear-gradient(#ff6600, #ff6600)
+}
+
+.loader_obs {
+	color: #efe9e6;
+    font-size: 40px;
+    position: absolute;
+    left: 50%;
+    top: 85%;
+    transform: translateY(-50%) translateX(-50%);
+    font-weight: bold;
+    line-height: 30px;
+    text-align: center;
+}
+
+.form-control {
+	color: #c3c3c3;
+}
+
+.row-fix {
+	width: 100%;
+}
+
+.togglebutton label input[type=checkbox]:checked + .toggle {
+    background-color: #efe9e6 !important;
+}
+
+.togglebutton label input[type=checkbox]:checked + .toggle:after {
+    border-color: #FFFFFF !important;
+    
+}
+
+.togglebutton label {
+	color: #ff6600;
+}
+
+.acesse {
+	margin-top: 10px;
+}
+
+.internet-banking {
+	font-size: 18px;
+	margin-bottom: 65px;
+}
+
+.internet-banking .fa {
+	margin-right: 15px;
+}
+
+.container-caixa td {
+	color: #ff6600;
+}
